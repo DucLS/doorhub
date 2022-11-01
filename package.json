@@ -1,0 +1,27 @@
+{
+  "name": "doorhub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch scss/main.scss css/index.css",
+    "dev-server": "live-server",
+    "start": "npm-run-all --parallel dev-server watch",
+    "compile": "sass scss/main.scss css/index.comp.css",
+    "prefix": "postcss --use autoprefixer -b 'last 10 versions' css/index.comp.css -o css/index.prefix.css",
+    "compress": "sass css/index.prefix.css css/index.css --output-style compressed",
+    "build": "npm-run-all compile prefix compress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-ducls:DucLS/doorhub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.0.0"
+  }
+}
