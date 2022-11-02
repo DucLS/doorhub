@@ -1,0 +1,28 @@
+.hero-section {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+
+  &__text-box {
+    align-self: center;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.015em;
+    color: var(--color-grey-light);
+
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  &__img-box {
+    justify-self: flex-end;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
