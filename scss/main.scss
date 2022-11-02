@@ -8,3 +8,12 @@
 @import "./vendors/fontawesome/scss/regular.scss";
 
 @import "base/base";
+@import "base/utilities";
+@import "base/typography";
+
+@import "components/button";
+@import "components/form";
+
+@import "layout/header";
+
+@import "pages/home";
