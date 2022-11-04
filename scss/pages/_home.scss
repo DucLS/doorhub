@@ -97,3 +97,32 @@
     color: #fffdfa;
   }
 }
+
+.order-section {
+  margin: 0 auto;
+
+  & > .heading--secondary {
+    text-align: center;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.005em;
+    color: var(--color-grey-light-2);
+
+    display: block;
+    text-align: center;
+    margin-top: 2.6rem;
+  }
+
+  &__steps {
+    display: flex;
+    margin-top: 7.8rem;
+  }
+
+  &__step-box {
+    align-self: center;
+  }
+}

@@ -10302,6 +10302,8 @@ readers do not read off random characters that represent icons */
   --color-grey-light-1: #bab8bd;
   --color-grey-light-2: #aaa7b1;
   --color-green-light: #f0ffea;
+  --color-orange: #ffb012;
+  --color-dark-red: #59302a;
 }
 
 html {
@@ -10425,6 +10427,39 @@ html {
   transform: scale(1.1);
 }
 
+.order-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.order-card__img-box {
+  height: 95px;
+}
+.order-card__img {
+  height: 100%;
+}
+.order-card__step-box {
+  padding: 1.1rem;
+  border: 1.5px dashed var(--color-orange);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 4.7rem;
+}
+.order-card__step {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: var(--color-dark-red);
+}
+.order-card__title {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  color: var(--color-blue-dark-1);
+  margin-top: 3rem;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -10522,6 +10557,30 @@ html {
 }
 .category-section__btn:hover > .category-section__icon {
   color: #fffdfa;
+}
+
+.order-section {
+  margin: 0 auto;
+}
+.order-section > .heading--secondary {
+  text-align: center;
+}
+.order-section__text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.005em;
+  color: var(--color-grey-light-2);
+  display: block;
+  text-align: center;
+  margin-top: 2.6rem;
+}
+.order-section__steps {
+  display: flex;
+  margin-top: 7.8rem;
+}
+.order-section__step-box {
+  align-self: center;
 }
 
 /*# sourceMappingURL=index.css.map */
