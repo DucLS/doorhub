@@ -202,3 +202,58 @@
     -webkit-background-clip: text;
   }
 }
+
+.about-section {
+  display: flex;
+  gap: 10.6rem;
+  padding: 6.4rem 0;
+
+  &__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0.005em;
+    color: var(--color-grey-light-2);
+
+    margin-top: 2.8rem;
+  }
+
+  &__options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 4rem;
+    margin-top: 4rem;
+  }
+
+  &__option {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    letter-spacing: 0.005em;
+    color: var(--color-blue-dark-4);
+  }
+
+  &__icon {
+    font-size: 1.4rem;
+    margin-right: 1.9rem;
+    color: var(--color-blue-dark-1);
+
+    &--rotate {
+      transform: rotate(-45deg);
+      margin-right: 1.674rem;
+    }
+  }
+
+  &__action {
+    margin-top: 5.154rem;
+    display: flex;
+    gap: 2.8rem;
+  }
+
+  &__btn {
+    border: none;
+    padding: 1.5rem 3.4rem;
+    text-transform: uppercase;
+  }
+}
