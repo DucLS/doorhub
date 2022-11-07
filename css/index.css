@@ -10796,4 +10796,64 @@ html {
   text-transform: uppercase;
 }
 
+.cta-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 15.8rem;
+  margin-top: 1.8rem;
+  padding: 5.8rem 0;
+}
+.cta-section__heading {
+  text-transform: none;
+}
+.cta-section__text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0.005em;
+  color: var(--color-grey-light-2);
+  margin-top: 2.8rem;
+  margin-bottom: 3.3rem;
+}
+.cta-section__content {
+  justify-self: center;
+  align-self: center;
+}
+.cta-section__step {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+}
+.cta-section__step:not(:last-child) {
+  margin-bottom: 2.6rem;
+}
+.cta-section__number-box {
+  border: 1.5px dotted var(--color-orange);
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-section__number {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  color: var(--color-dark-red);
+}
+.cta-section__step-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.005em;
+  color: var(--color-blue-dark-4);
+}
+.cta-section__downloads {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3.4rem;
+}
+
 /*# sourceMappingURL=index.css.map */
