@@ -147,7 +147,11 @@
   }
 
   &:hover {
-    background-image: linear-gradient(138.79deg, #b0cfff 8.47%, #82b2fe 81.99%);
+    background-image: linear-gradient(
+      138.79deg,
+      var(--color-blue-light-2) 8.47%,
+      var(--color-blue-light-3) 81.99%
+    );
     box-shadow: 0px 28px 63px -13px rgba(80, 136, 225, 0.29);
     cursor: pointer;
 
@@ -164,8 +168,8 @@
       margin: -2px;
       background-image: linear-gradient(
         138.79deg,
-        #b0cfff 8.47%,
-        #82b2fe 81.99%
+        var(--color-blue-light-2) 8.47%,
+        var(--color-blue-light-3) 81.99%
       );
       border-radius: inherit;
     }
@@ -184,6 +188,6 @@
   }
 
   &:hover &__icon {
-    color: #82b2fe;
+    color: var(--color-blue-light-3);
   }
 }
