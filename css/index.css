@@ -10341,6 +10341,13 @@ html {
   color: var(--color-blue-dark-1);
 }
 
+.heading--tertiary {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  color: var(--color-blue-dark-1);
+}
+
 .btn {
   border-radius: 100px;
 }
@@ -10600,6 +10607,37 @@ html {
   -webkit-background-clip: text;
   color: transparent;
   margin-top: 1.4rem;
+}
+
+.blog__img-box {
+  margin-bottom: 4rem;
+}
+.blog__img {
+  width: 100%;
+}
+.blog__description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0.005em;
+  color: var(--color-grey-light-2);
+  margin-top: 2.4rem;
+}
+.blog__action {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  letter-spacing: 0.005em;
+  color: var(--color-blue-dark-4);
+  text-decoration: none;
+}
+.blog__icon {
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  margin-left: 0.8rem;
+}
+.blog__icon--rotate {
+  transform: rotate(-45deg);
 }
 
 .header {
@@ -10940,6 +10978,57 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.blog-section {
+  margin-top: 3.1rem;
+  padding: 5.6rem 0;
+}
+.blog-section > .heading--secondary {
+  text-align: center;
+  line-height: 4.6rem;
+}
+.blog-section__text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: var(--color-grey-light-2);
+  text-align: center;
+  margin: 2.8rem 0 8rem;
+}
+.blog-section__blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 6rem;
+}
+.blog-section > .btn--primary {
+  padding: 0.7rem 0;
+  padding-left: 1.9rem;
+  padding-right: 1rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-section__icon-box {
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  margin-left: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-section__icon {
+  font-size: 1.4rem;
+  background-image: linear-gradient(153.09deg, var(--color-blue-light) 10.28%, var(--color-blue-dark) 102.17%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /*# sourceMappingURL=index.css.map */
