@@ -467,11 +467,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-image: url(/img/bg\ shape.png);
-  background-color: #6b95d8;
+  background-color: var(--color-blue-light-6);
 
   &__subscribe {
     padding: 12.7rem 10.5rem 12.7rem 10.5rem;
-    border-right: 2px dashed #99bcf4;
+    border-right: 2px dashed var(--color-blue-light-8);
   }
 
   &__heading {
@@ -487,7 +487,7 @@
     font-weight: 400;
     line-height: 2.6rem;
     letter-spacing: 0.005em;
-    color: #dde6f3;
+    color: var(--color-blue-light-7);
     margin-top: 0.8rem;
     margin-bottom: 2.8rem;
   }

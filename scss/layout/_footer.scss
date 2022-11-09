@@ -1,0 +1,103 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, max-content);
+
+  padding: 5.4rem 13.5rem;
+
+  &__special-text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    letter-spacing: -0.01em;
+    color: var(--color-grey-light-2);
+
+    margin-top: 3.6rem;
+  }
+
+  &__heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--color-blue-dark-4);
+  }
+
+  &__nav {
+    list-style: none;
+    margin-top: 3.2rem;
+  }
+
+  &__link {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    color: var(--color-grey-light-2);
+    text-decoration: none;
+  }
+
+  &__quick-link {
+    margin-right: 8.3rem;
+  }
+
+  &__useful-link {
+    margin-right: 5.9rem;
+  }
+
+  &__know-us {
+    margin-right: 12.2rem;
+  }
+
+  &__copyright {
+    grid-column: 1 / -1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid var(--color-grey-light-2);
+    margin-top: 5.3rem;
+    padding-top: 2.6rem;
+  }
+
+  &__copyright-text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    color: var(--color-grey-light-3);
+  }
+
+  &__social {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  &__icon-box {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid rgba(#2d76f9, 0.5);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: var(--color-blue-dark-6);
+      cursor: pointer;
+    }
+  }
+
+  &__icon {
+    font-size: 1.2rem;
+    color: var(--color-blue-dark-6);
+    opacity: 0.5;
+
+    transition: all 0.2s;
+  }
+
+  &__icon-box:hover > &__icon {
+    color: var(--color-white);
+    opacity: 1;
+  }
+}
