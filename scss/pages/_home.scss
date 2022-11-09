@@ -1,7 +1,7 @@
 .hero-section {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: max-content 1fr;
+  padding: 6.3rem 13.5rem 6.8rem;
 
   &__text-box {
     align-self: center;
@@ -28,7 +28,8 @@
 }
 
 .category-section {
-  margin: 2.3rem auto 0;
+  margin-top: 2.3rem;
+  padding: 4.3rem 13.5rem 4.9rem;
 
   & > .heading--secondary {
     text-align: center;
@@ -48,7 +49,7 @@
   &__list {
     list-style: none;
     display: flex;
-    gap: 2.5rem;
+    gap: 3.2rem;
 
     margin-top: 4.4rem;
   }
@@ -100,6 +101,7 @@
 
 .order-section {
   margin: 0 auto;
+  padding: 4.3rem 13.5rem 4.9rem;
 
   & > .heading--secondary {
     text-align: center;
@@ -129,7 +131,7 @@
 
 .feature-section {
   margin-top: 10.4rem;
-  padding: 3.2rem 0 5.3rem;
+  padding: 3.2rem 13.5rem 5.3rem;
 
   & > .heading--secondary {
     text-align: center;
@@ -206,7 +208,7 @@
 .about-section {
   display: flex;
   gap: 10.6rem;
-  padding: 6.4rem 0;
+  padding: 6.4rem 13.5rem;
 
   &__text {
     font-size: 1.6rem;
@@ -263,7 +265,7 @@
   grid-template-columns: 2fr 1fr;
   column-gap: 15.8rem;
   margin-top: 1.8rem;
-  padding: 5.8rem 0;
+  padding: 5.8rem 16.8rem;
 
   &__heading {
     text-transform: none;
@@ -330,7 +332,7 @@
 .testimonials-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5.2rem 0;
+  padding: 5.2rem 18.7rem;
 
   &__content {
     margin-top: 2.6rem;
@@ -401,7 +403,7 @@
 
 .blog-section {
   margin-top: 3.1rem;
-  padding: 5.6rem 0;
+  padding: 5.6rem 13.5rem;
 
   & > .heading--secondary {
     text-align: center;
@@ -458,5 +460,53 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+  }
+}
+
+.subscription-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(/img/bg\ shape.png);
+  background-color: #6b95d8;
+
+  &__subscribe {
+    padding: 12.7rem 10.5rem 12.7rem 10.5rem;
+    border-right: 2px dashed #99bcf4;
+  }
+
+  &__heading {
+    font-size: 4.6rem;
+    font-weight: 600;
+    line-height: 5.8rem;
+    letter-spacing: 0.005em;
+    color: var(--color-white);
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0.005em;
+    color: #dde6f3;
+    margin-top: 0.8rem;
+    margin-bottom: 2.8rem;
+  }
+
+  &__order {
+    padding: 22.1rem 35rem 12.7rem 14.5rem;
+  }
+
+  &__order > &__heading {
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    letter-spacing: 0.005em;
+  }
+
+  &__order > .btn--primary {
+    margin-top: 2.2rem;
+    border: none;
+    padding: 1.9rem 2.6rem;
+    font-weight: 500;
   }
 }
