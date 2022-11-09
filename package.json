@@ -9,7 +9,7 @@
     "start": "npm-run-all --parallel dev-server watch",
     "compile": "sass scss/main.scss css/index.comp.css",
     "prefix": "postcss --use autoprefixer -b 'last 10 versions' css/index.comp.css -o css/index.prefix.css",
-    "compress": "sass css/index.prefix.css css/index.css --output-style compressed",
+    "compress": "sass css/index.prefix.css css/index.css --style compressed",
     "build": "npm-run-all compile prefix compress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
