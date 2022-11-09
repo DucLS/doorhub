@@ -10316,7 +10316,7 @@ html {
 }
 
 .container {
-  max-width: 114rem;
+  max-width: 144rem;
 }
 
 .m-auto {
@@ -10427,6 +10427,43 @@ html {
 }
 .discover__icon {
   color: var(--color-blue-dark-3);
+}
+
+.subscription-form {
+  display: flex;
+  align-items: center;
+}
+.subscription-form__input {
+  padding: 0.8rem 0.8rem 0.8rem 2.6rem;
+  border: none;
+  border-radius: 100px;
+  width: 47rem;
+  height: 6.2rem;
+}
+.subscription-form__input::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  letter-spacing: 0.005em;
+  color: #abacb4;
+}
+.subscription-form__btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  padding: 0.6rem 1rem 0.6rem 1.6rem;
+  margin-left: -14.8rem;
+}
+.subscription-form__icon-box {
+  padding: 1rem 1.2rem;
+  background-color: var(--color-white);
+  border-radius: 50%;
+}
+.subscription-form__icon {
+  color: #4183f8;
+  font-size: 1.4rem;
 }
 
 .category-card {
@@ -10642,10 +10679,10 @@ html {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 2.8rem 0;
+  padding: 2.8rem 13.5rem;
 }
 .header__logo {
   width: 100%;
@@ -10665,9 +10702,9 @@ html {
 }
 
 .hero-section {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: max-content 1fr;
+  padding: 6.3rem 13.5rem 6.8rem;
 }
 .hero-section__text-box {
   align-self: center;
@@ -10689,7 +10726,8 @@ html {
 }
 
 .category-section {
-  margin: 2.3rem auto 0;
+  margin-top: 2.3rem;
+  padding: 4.3rem 13.5rem 4.9rem;
 }
 .category-section > .heading--secondary {
   text-align: center;
@@ -10706,7 +10744,7 @@ html {
 .category-section__list {
   list-style: none;
   display: flex;
-  gap: 2.5rem;
+  gap: 3.2rem;
   margin-top: 4.4rem;
 }
 .category-section__paginate {
@@ -10741,6 +10779,7 @@ html {
 
 .order-section {
   margin: 0 auto;
+  padding: 4.3rem 13.5rem 4.9rem;
 }
 .order-section > .heading--secondary {
   text-align: center;
@@ -10765,7 +10804,7 @@ html {
 
 .feature-section {
   margin-top: 10.4rem;
-  padding: 3.2rem 0 5.3rem;
+  padding: 3.2rem 13.5rem 5.3rem;
 }
 .feature-section > .heading--secondary {
   text-align: center;
@@ -10824,7 +10863,7 @@ html {
 .about-section {
   display: flex;
   gap: 10.6rem;
-  padding: 6.4rem 0;
+  padding: 6.4rem 13.5rem;
 }
 .about-section__text {
   font-size: 1.6rem;
@@ -10873,7 +10912,7 @@ html {
   grid-template-columns: 2fr 1fr;
   column-gap: 15.8rem;
   margin-top: 1.8rem;
-  padding: 5.8rem 0;
+  padding: 5.8rem 16.8rem;
 }
 .cta-section__heading {
   text-transform: none;
@@ -10931,7 +10970,7 @@ html {
 .testimonials-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5.2rem 0;
+  padding: 5.2rem 18.7rem;
 }
 .testimonials-section__content {
   margin-top: 2.6rem;
@@ -10982,7 +11021,7 @@ html {
 
 .blog-section {
   margin-top: 3.1rem;
-  padding: 5.6rem 0;
+  padding: 5.6rem 13.5rem;
 }
 .blog-section > .heading--secondary {
   text-align: center;
@@ -11029,6 +11068,48 @@ html {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+.subscription-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url(/img/bg\ shape.png);
+  background-color: #6b95d8;
+}
+.subscription-section__subscribe {
+  padding: 12.7rem 10.5rem 12.7rem 10.5rem;
+  border-right: 2px dashed #99bcf4;
+}
+.subscription-section__heading {
+  font-size: 4.6rem;
+  font-weight: 600;
+  line-height: 5.8rem;
+  letter-spacing: 0.005em;
+  color: var(--color-white);
+}
+.subscription-section__text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0.005em;
+  color: #dde6f3;
+  margin-top: 0.8rem;
+  margin-bottom: 2.8rem;
+}
+.subscription-section__order {
+  padding: 22.1rem 35rem 12.7rem 14.5rem;
+}
+.subscription-section__order > .subscription-section__heading {
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 4.8rem;
+  letter-spacing: 0.005em;
+}
+.subscription-section__order > .btn--primary {
+  margin-top: 2.2rem;
+  border: none;
+  padding: 1.9rem 2.6rem;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=index.css.map */
